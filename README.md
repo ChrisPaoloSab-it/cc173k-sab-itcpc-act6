@@ -1,5 +1,6 @@
 Contents of the app. A simple readme file detailing the activities for each day
 
+
 Week 1: Burnham Park Adventures
 
 Day 1: Morning jog around Burnham Park Lake.
@@ -15,6 +16,7 @@ Day 5: Bird watching and identifying local species.
 Day 6: Join or form a morning exercise group.
 
 Day 7: Capture the sunset with your camera or smartphone.
+
 
 Week 2: Botanical Garden Bliss
 
@@ -32,6 +34,7 @@ Day 13: Volunteer for a garden clean-up activity.
 
 Day 14: Map out and label the garden’s key areas and features.
 
+
 Week 3: Camp John Hay Escapes
 
 Day 15: Discover the eco-trails and go for a hike.
@@ -47,6 +50,7 @@ Day 19: Go stargazing at night within the park.
 Day 20: Listen to local tales and legends from elders.
 
 Day 21: Identify and document different tree species.
+
 
 Week 4: Mines View Park & More
 
