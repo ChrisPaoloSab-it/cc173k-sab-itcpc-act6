@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">30DaysActivity</string>
+    <string name="app_title">30 Days: No Spend Park Activities</string>
+    <string name="day1_text">Day 1: Morning jog around Burnham Park Lake</string>
+    <string name="day1_activity">A jog around the lake in the early morning can boost your mental state and improve your energy levels for the day.</string>
+    <string name="day2_text">Day 2: Practice yoga or tai chi on the park lawns.</string>
+    <string name="day2_activity">Yoga or tai chi activities can help you relax and reduce stress.</string>
+    <string name="day3_text">Day 3: Sketch or paint the scenic views of the park</string>
+    <string name="day3_activity">Paint your favorite area in the park, use any medium you want and be expressive. Take your time in building your art.</string>
+    <string name="day4_text">Day 4: Have a picnic under the trees with family or friends.</string>
+    <string name="day4_activity">Time to bring some friends or family with you and have a picnic under the trees. Bring your favorite snacks and drinks that you have been saving at home.</string>
+    <string name="day5_text">Day 5: Bird watching and identifying local species.</string>
+    <string name="day5_activity">There are many local species of birds flocking around the lake on quiet days. Try visiting in the morning for a calmer experience with bird watching.</string>
+    <string name="day6_text">Day 6: Join or form a morning exercise group.</string>
+    <string name="day6_activity">Various groups are seen exercising the park in the morning, try joining one and make friends in the process. You may also form a group of your own with your new friends.</string>
+    <string name="day7_text">Day 7: Capture the sunset with your camera or smartphone.</string>
+    <string name="day7_activity">Afternoons are perfect for experiencing a busier side of the park as residents pass by to enjoy the park after a day of working or school. This is also a good time to witness the setting sun wrap the park in an orange glow.</string>
+
 </resources>
