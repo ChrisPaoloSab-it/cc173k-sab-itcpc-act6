@@ -15,6 +15,7 @@ Day 5: Bird watching and identifying local species.
 Day 6: Join or form a morning exercise group.
 
 Day 7: Capture the sunset with your camera or smartphone.
+
 Week 2: Botanical Garden Bliss
 ==============================
 Day 8: Explore the different plant species in the Botanical Garden.
