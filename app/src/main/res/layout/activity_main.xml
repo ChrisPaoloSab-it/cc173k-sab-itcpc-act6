@@ -6,6 +6,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:theme="@style/AppTheme"
     tools:context=".MainActivity">
 
     <TextView
@@ -14,6 +15,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="@string/app_title"
+        android:theme="@style/AppTheme"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -22,13 +24,15 @@
         app:layout_constraintVertical_bias="0.022" />
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview_layout"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_margin="10dp"
-        android:id="@+id/recyclerview_layout"
-        app:layout_constraintTop_toBottomOf="@id/appTitle"
+        android:background="@color/md_theme_primaryContainer"
+        android:theme="@style/AppTheme"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintTop_toBottomOf="@id/appTitle" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
