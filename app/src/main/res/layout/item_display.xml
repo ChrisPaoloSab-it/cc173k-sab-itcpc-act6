@@ -1,32 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<HorizontalScrollView
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="horizontal"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
     android:padding="16dp">
 
     <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/design_default_color_on_primary"
         android:orientation="vertical">
 
         <TextView
             android:id="@+id/dayText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_margin="5dp"
             android:layout_weight="1"
-            android:text="@string/day1_text" />
+            android:text="@string/day1_text"
+            android:textAlignment="textStart"
+            android:textSize="16sp" />
 
         <ImageView
             android:id="@+id/dayImage"
-            android:contentDescription="@string/day1_text"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="360dp"
+            android:layout_height="360dp"
             android:layout_weight="1"
-            android:src="@drawable/day1_image"
+            android:padding="10dp"
+            android:contentDescription="@string/day1_text"
             tools:srcCompat="@tools:sample/avatars" />
+
     </LinearLayout>
-</HorizontalScrollView>
+</ScrollView>

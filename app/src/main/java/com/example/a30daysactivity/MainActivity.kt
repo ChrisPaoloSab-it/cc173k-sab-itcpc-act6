@@ -10,9 +10,7 @@ import androidx.recyclerview.widget.RecyclerView
 
 class MainActivity : AppCompatActivity() {
 
-    private val items = listOf(
-        "Day 1: Morning jog around Burnham Park Lake", "Day 2: Practice yoga or tai chi on the park lawns."
-    )
+    private lateinit var items: List<String>
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -23,6 +21,23 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+
+        items = listOf(
+            getString(R.string.day1_text),
+            getString(R.string.day2_text),
+            getString(R.string.day3_text),
+            getString(R.string.day4_text),
+            getString(R.string.day5_text),
+            getString(R.string.day6_text),
+            getString(R.string.day7_text),
+            getString(R.string.day8_text),
+            getString(R.string.day9_text),
+            getString(R.string.day10_text),
+            getString(R.string.day11_text),
+            getString(R.string.day12_text),
+            getString(R.string.day13_text),
+            getString(R.string.day14_text)
+        )
 
         val recyclerView = findViewById<RecyclerView>(R.id.recyclerview_layout)
         val layoutManager = LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false)
