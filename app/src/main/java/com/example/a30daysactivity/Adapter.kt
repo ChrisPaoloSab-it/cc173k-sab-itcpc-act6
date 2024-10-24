@@ -47,8 +47,23 @@ RecyclerView.Adapter<Adapter.ViewHolder>()
             11 -> R.drawable.day12_image
             12 -> R.drawable.day13_image
             13 -> R.drawable.day14_image
+            14 -> R.drawable.day15_image
+            15 -> R.drawable.day16_image
+            16 -> R.drawable.day17_image
+            17 -> R.drawable.day18_image
+            18 -> R.drawable.day19_image
+            19 -> R.drawable.day20_image
+            20 -> R.drawable.day21_image
+            21 -> R.drawable.day22_image
+            22 -> R.drawable.day23_image
+            23 -> R.drawable.day24_image
+            24 -> R.drawable.day25_image
+            25 -> R.drawable.day26_image
+            26 -> R.drawable.day27_image
+            27 -> R.drawable.day28_image
+            28 -> R.drawable.day29_image
 
-            else -> R.drawable.day1_image
+            else -> R.drawable.day30_image
         }
         holder.dayImage.setImageResource(imageResource)
     }
